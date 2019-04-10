@@ -28,8 +28,44 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`owencli decrypt [VALUE]`](#owencli-decrypt-value)
+* [`owencli encrypt [VALUE]`](#owencli-encrypt-value)
 * [`owencli hello [FILE]`](#owencli-hello-file)
 * [`owencli help [COMMAND]`](#owencli-help-command)
+
+## `owencli decrypt [VALUE]`
+
+encrypt
+
+```
+USAGE
+  $ owencli decrypt [VALUE]
+
+OPTIONS
+  -v, --value=value  name to print
+
+EXAMPLE
+  $ owencli encrypt owen-awesome
+```
+
+_See code: [src/commands/decrypt.ts](https://github.com/owenjeon/owen-cli/blob/v0.0.0/src/commands/decrypt.ts)_
+
+## `owencli encrypt [VALUE]`
+
+encrypt
+
+```
+USAGE
+  $ owencli encrypt [VALUE]
+
+OPTIONS
+  -v, --value=value  name to print
+
+EXAMPLE
+  $ owencli encrypt owen-awesome
+```
+
+_See code: [src/commands/encrypt.ts](https://github.com/owenjeon/owen-cli/blob/v0.0.0/src/commands/encrypt.ts)_
 
 ## `owencli hello [FILE]`
 
