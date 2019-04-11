@@ -2,10 +2,10 @@ import {Command, flags} from '@oclif/command'
 import {createDecipher} from 'crypto'
 
 export default class Decrypt extends Command {
-  static description = 'encrypt'
+  static description = '복호화 결과를 리턴'
 
   static examples = [
-    '$ owencli encrypt owen-awesome',
+    '$ owencli decrypt owen-awesome',
   ]
 
   static flags = {
